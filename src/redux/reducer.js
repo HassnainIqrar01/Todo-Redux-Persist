@@ -2,6 +2,7 @@ import { ADD_TASK, DELETE_TASK, COMPLETE_TASK } from "./actions";
 
 const initialData = {
   taskItems: [],
+  deletedTasks: [],
 };
 
 const taskReducer = (state = initialData, action) => {
